@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DUTYBOOK Privacy Policy</title>
+<style>body{font-family:system-ui,Segoe UI,Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.6;color:#1a1a2e}h1,h2,h3{color:#1b1b4b}a{color:#2563eb}hr{border:0;border-top:1px solid #ddd}</style></head><body><h1>Privacy Policy for DUTYBOOK</h1>
+<p><strong>Effective Date:</strong> October 2026<br />
+<strong>Last updated:</strong> 22 October 2026 (aligned with app version 1.0.0 features)<br />
+<strong>Application Name:</strong> DUTYBOOK<br />
+<strong>Official Tagline:</strong> Every Duty Counts. Every Rupee Matters.<br />
+<strong>Package Identifier:</strong> <code>com.a3sdigitech.kaamwalihisab</code><br />
+<strong>Publisher:</strong> A3S Digitech<br />
+<strong>Privacy Contact:</strong> <a href="mailto:a3sdigitech@gmail.com">a3sdigitech@gmail.com</a><br />
+<strong>Public Policy URL:</strong> https://shahnawazrathod86.github.io/dutybook-privacy/privacy-policy.html  </p>
+<hr />
+<h2>1. Introduction &amp; Overview</h2>
+<p><strong>DUTYBOOK</strong> is an offline-first domestic household management application published by <strong>A3S Digitech</strong>. The application helps householders record domestic staff attendance (maids, cooks, drivers, babysitters, cleaners), compute accurate wages and advances, track recurring daily vendor deliveries (milk, water jars, laundry), and record payments.</p>
+<p>Our privacy philosophy is rooted in total data sovereignty: <strong>Your domestic and household records belong to you and stay entirely on your personal device.</strong> A3S Digitech does not operate user databases or remote telemetry servers, and never collects, receives, tracks, monetizes, or sells your data.</p>
+<hr />
+<h2>2. How Your Data Is Handled</h2>
+<h3>Local Storage</h3>
+<p>All information entered into DUTYBOOK is stored locally on your device in a secure, sandboxed SQLite database allocated exclusively to the application (<code>/data/data/com.a3sdigitech.kaamwalihisab/</code>).</p>
+<h3>Privacy &amp; Zero Data Collection</h3>
+<p>A3S Digitech does <strong>not</strong> receive, collect, transmit, or monitor your locally stored records through the app. There are no advertising trackers, behavioral analytics SDKs (such as Google Analytics or Firebase), or background network telemetry embedded in DUTYBOOK.</p>
+<h3>No Account Required</h3>
+<p>You can use all features of DUTYBOOK without registering an account, providing an email address, creating a profile, or signing in.</p>
+<hr />
+<h2>3. Data You May Store Locally</h2>
+<p>The app provides input fields for you to record information necessary for domestic management:
+- <strong>Staff &amp; Vendor Profiles:</strong> Name, work role/service, optional contact phone number, and agreed wage/unit rate.
+- <strong>Attendance Records:</strong> Daily attendance status (Present, Half Day, Absent, Paid Leave, Weekly Off, Public Holiday, Overtime). Optional last working day of a staff member.
+- <strong>Vendor Deliveries:</strong> Daily quantities (liters, packets, jars, clothes), unit prices, pauses, and returns.
+- <strong>Financial Khata:</strong> Cash or UPI payments made, salary advances, and settlement locks.</p>
+<p><strong>We do NOT collect or store:</strong>
+- Government ID documents (Aadhaar cards, PAN, Voter IDs).
+- Banking credentials, credit/debit card numbers, or UPI PINs.
+- Biometric records (fingerprints or facial scans). If you choose "Use phone lock", Android checks your fingerprint, face, PIN or pattern itself and only tells the app yes or no; the app never sees or stores it.
+- Contacts address books or location logs.</p>
+<hr />
+<h2>4. Device Permissions</h2>
+<p>DUTYBOOK adheres strictly to the principle of least privilege. The app does not request or require any dangerous Android runtime permissions:
+- ❌ No Location (<code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code>)
+- ❌ No Contacts (<code>READ_CONTACTS</code>, <code>WRITE_CONTACTS</code>)
+- ❌ No Camera or Microphone (<code>CAMERA</code>, <code>RECORD_AUDIO</code>)
+- ❌ No Broad Storage Access (<code>MANAGE_EXTERNAL_STORAGE</code>)</p>
+<p>Any file saving or loading (such as backups and PDF export) relies on the official Android Storage Access Framework (SAF) system picker.</p>
+<hr />
+<h2>5. Data Sharing &amp; Third-Party Processing</h2>
+<ul>
+<li><strong>User-Initiated Sharing:</strong> If you choose to export or share records (such as generating a monthly salary slip PDF, vendor bill, or CSV ledger), the transfer occurs via the standard Android system share sheet.</li>
+<li><strong>Independent Privacy Practices:</strong> Once you share a file with an external service (such as WhatsApp, Gmail, Telegram, or Google Drive), that destination application handles the file under its own terms of service and privacy practices.</li>
+<li><strong>In-App Safeguards:</strong> DUTYBOOK alerts you before dispatching any file to the system share sheet, confirming that the exported document will leave the application's local sandbox.</li>
+</ul>
+<hr />
+<h2>6. Data Retention &amp; Deletion Rules</h2>
+<ul>
+<li><strong>User Control:</strong> You can edit staff and vendor profiles, record the last working day, undo attendance marks, and <strong>archive</strong> staff. Archived staff are listed under Settings &gt; Archived staff, where you can bring them back or <strong>delete them permanently</strong> together with all their attendance, payments and advances.</li>
+<li><strong>Cancelling payments and advances:</strong> A wrong payment or advance can be cancelled from the Khata screen. For your accounting trail, a cancelled entry is <strong>kept</strong>, marked as cancelled with its reason, and excluded from balances. It is erased when you delete that staff member or use "Delete all my data". An internal audit log of changes (for example cancelled entries and month locks) is also kept on your phone until you delete all data.</li>
+<li><strong>Delete all my data:</strong> Settings &gt; "Delete all my data" permanently erases every record stored by the app (staff, attendance, deliveries, payments, advances, settlement locks and the audit log) after you type DELETE to confirm. Clearing the app's storage in Android settings does the same.</li>
+<li><strong>Scope of Deletion:</strong> Clearing the app's storage permanently removes its local records, but does <strong>not</strong> delete copies of salary slips, backups, or bills that you previously exported or shared to external destinations or cloud storage.</li>
+<li><strong>App Uninstallation:</strong> Uninstalling DUTYBOOK immediately purges the app's private sandboxed database from your device.</li>
+</ul>
+<hr />
+<h2>7. Data Security Measures</h2>
+<p>We employ multi-layered technical measures to safeguard locally stored information:
+- <strong>Device-Level Sandboxing:</strong> Standard Android process isolation and UID sandboxing prevent other applications from accessing DUTYBOOK's local SQLite database.
+- <strong>Authenticated Encrypted Backups:</strong> When you generate a manual backup, the database file is encrypted using <strong>AES-256 authenticated encryption</strong>, with encryption keys derived via <strong>PBKDF2-HMAC-SHA256</strong> (210,000 iterations; older backups use 10,000) using a master password of at least 8 characters defined solely by you.
+- <strong>Optional App Lock:</strong> You can protect the app with a 4-6 digit PIN (Settings &gt; App lock). The PIN is never stored; only a salted hash of it is kept on your phone. There is no PIN recovery, because we hold no copy of your data or your PIN.
+- <strong>No Password Escrow:</strong> A3S Digitech does not store, know, or escrow your backup password. If you lose your password, the backup file cannot be decrypted.</p>
+<hr />
+<h2>8. Legal Compliance &amp; Indian DPDP Act, 2023</h2>
+<p>Under <strong>Section 3(c) of the Digital Personal Data Protection Act, 2023 (DPDP Act, Act No. 22 of 2023)</strong>, personal data processed by an individual for <strong>personal or domestic purposes</strong> is exempt from statutory fiduciary obligations.</p>
+<p>DUTYBOOK is designed and provided exclusively as a personal domestic tool for Indian households. Because A3S Digitech does not process, receive, or store any user data, A3S Digitech does not act as a Data Fiduciary or Data Processor under the Act.</p>
+<hr />
+<h2>9. Children's Privacy</h2>
+<p>DUTYBOOK is intended for adult household managers. The app does not knowingly collect, store, or solicit personal data from children under the age of 18.</p>
+<hr />
+<h2>10. Changes to This Policy</h2>
+<p>If we introduce new features in future versions (such as optional cloud backup or multi-device sync), this policy will be revised accordingly, and users will be provided with clear in-app disclosure and choice prior to any data processing.</p>
+<hr />
+<h2>11. Publisher &amp; Contact Information</h2>
+<p>For any questions, clarifications, or feedback regarding this Privacy Policy, please contact our team:</p>
+<ul>
+<li><strong>Publisher:</strong> A3S Digitech  </li>
+<li><strong>Application:</strong> DUTYBOOK (<code>com.a3sdigitech.kaamwalihisab</code>)  </li>
+<li><strong>Privacy Contact Email:</strong> <a href="mailto:a3sdigitech@gmail.com">a3sdigitech@gmail.com</a>  </li>
+<li><strong>Official Webpage:</strong> <a href="https://shahnawazrathod86.github.io/dutybook-privacy/privacy-policy.html">https://shahnawazrathod86.github.io/dutybook-privacy/privacy-policy.html</a>  </li>
+</ul></body></html>
