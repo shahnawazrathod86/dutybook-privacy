@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DUTYBOOK Privacy Policy</title>
 <style>body{font-family:system-ui,Segoe UI,Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.6;color:#1a1a2e}h1,h2,h3{color:#1b1b4b}a{color:#2563eb}hr{border:0;border-top:1px solid #ddd}</style></head><body><h1>Privacy Policy for DUTYBOOK</h1>
 <p><strong>Effective Date:</strong> October 2026<br />
-<strong>Last updated:</strong> 22 October 2026 (aligned with app version 1.0.0 features)<br />
+<strong>Last updated:</strong> 8 November 2026 (adds Google AdMob advertising)<br />
 <strong>Application Name:</strong> DUTYBOOK<br />
 <strong>Official Tagline:</strong> Every Duty Counts. Every Rupee Matters.<br />
 <strong>Package Identifier:</strong> <code>com.a3sdigitech.kaamwalihisab</code><br />
@@ -10,14 +10,20 @@
 <strong>Public Policy URL:</strong> https://shahnawazrathod86.github.io/dutybook-privacy/privacy-policy.html  </p>
 <hr />
 <h2>1. Introduction &amp; Overview</h2>
-<p><strong>DUTYBOOK</strong> is an offline-first domestic household management application published by <strong>A3S Digitech</strong>. The application helps householders record domestic staff attendance (maids, cooks, drivers, babysitters, cleaners), compute accurate wages and advances, track recurring daily vendor deliveries (milk, water jars, laundry), and record payments.</p>
-<p>Our privacy philosophy is rooted in total data sovereignty: <strong>Your domestic and household records belong to you and stay entirely on your personal device.</strong> A3S Digitech does not operate user databases or remote telemetry servers, and never collects, receives, tracks, monetizes, or sells your data.</p>
+<p><strong>DUTYBOOK</strong> is a domestic household management application published by <strong>A3S Digitech</strong>. It works offline and is free; it shows one banner ad on its Home screen, supplied by Google AdMob. The application helps householders record domestic staff attendance (maids, cooks, drivers, babysitters, cleaners), compute accurate wages and advances, track recurring daily vendor deliveries (milk, water jars, laundry), and record payments.</p>
+<p>Our privacy philosophy is rooted in total data sovereignty: <strong>Your domestic and household records belong to you and stay entirely on your personal device.</strong> A3S Digitech does not operate user databases or remote servers for your records, and never collects, receives, or sells your staff, attendance, vendor or payment records. The only data that leaves your phone is the limited advertising data that Google AdMob handles to show and measure ads (see section 2).</p>
 <hr />
 <h2>2. How Your Data Is Handled</h2>
 <h3>Local Storage</h3>
 <p>All information entered into DUTYBOOK is stored locally on your device in a secure, sandboxed SQLite database allocated exclusively to the application (<code>/data/data/com.a3sdigitech.kaamwalihisab/</code>).</p>
-<h3>Privacy &amp; Zero Data Collection</h3>
-<p>A3S Digitech does <strong>not</strong> receive, collect, transmit, or monitor your locally stored records through the app. There are no advertising trackers, behavioral analytics SDKs (such as Google Analytics or Firebase), or background network telemetry embedded in DUTYBOOK.</p>
+<h3>Your records are not collected</h3>
+<p>A3S Digitech does <strong>not</strong> receive, collect, transmit, or monitor your locally stored records through the app. Staff names, wages, attendance, deliveries, advances and payments are never sent to A3S Digitech, to Google, or to any other party by the app. There are no behavioral analytics SDKs (such as Google Analytics or Firebase) in DUTYBOOK.</p>
+<h3>Advertising (Google AdMob)</h3>
+<p>DUTYBOOK shows one banner ad on the Home screen using <strong>Google AdMob</strong> (Google Mobile Ads SDK). No ads are shown on the Khata, Reports or Settings screens, on the lock screen, or in exported PDFs. To show, measure and protect against fraud in ads, the Google Mobile Ads SDK automatically collects and uses, under Google's own privacy policy (https://policies.google.com/privacy): the device's <strong>advertising ID</strong> and app set ID, <strong>IP address</strong> (which can indicate approximate location), <strong>app interactions</strong> (such as app launches and ad taps), and <strong>app diagnostics</strong> (such as launch time and performance). This data is encrypted in transit. A3S Digitech does not receive this data and does not link it to any of your records.</p>
+<ul>
+<li><strong>Your choices:</strong> you can reset or delete your advertising ID, or opt out of ads personalization, in Android Settings &gt; Privacy &gt; Ads. Where required by law (for example in the European Economic Area and the UK), the app shows Google's consent message on first use and keeps a "Ad privacy choices" entry in Settings so you can change your choice.</li>
+<li><strong>Ad content:</strong> the app asks Google to show only ads suitable for general audiences.</li>
+</ul>
 <h3>No Account Required</h3>
 <p>You can use all features of DUTYBOOK without registering an account, providing an email address, creating a profile, or signing in.</p>
 <hr />
@@ -34,7 +40,7 @@
 - Contacts address books or location logs.</p>
 <hr />
 <h2>4. Device Permissions</h2>
-<p>DUTYBOOK adheres strictly to the principle of least privilege. The app does not request or require any dangerous Android runtime permissions:
+<p>DUTYBOOK adheres strictly to the principle of least privilege. The app does not request or require any dangerous Android runtime permissions. It declares these normal permissions: <strong>Internet</strong> and <strong>Advertising ID</strong> (only so Google AdMob can load and measure the Home banner ad) and <strong>Biometric</strong> (only for the optional "Use phone lock" setting). It does not request:
 - ❌ No Location (<code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code>)
 - ❌ No Contacts (<code>READ_CONTACTS</code>, <code>WRITE_CONTACTS</code>)
 - ❌ No Camera or Microphone (<code>CAMERA</code>, <code>RECORD_AUDIO</code>)
@@ -45,6 +51,7 @@
 <ul>
 <li><strong>User-Initiated Sharing:</strong> If you choose to export or share records (such as generating a monthly salary slip PDF, vendor bill, or CSV ledger), the transfer occurs via the standard Android system share sheet.</li>
 <li><strong>Independent Privacy Practices:</strong> Once you share a file with an external service (such as WhatsApp, Gmail, Telegram, or Google Drive), that destination application handles the file under its own terms of service and privacy practices.</li>
+<li><strong>Advertising Provider:</strong> Google AdMob (Google Ireland Limited / Google LLC) receives the advertising data described in section 2 when ads load. It acts under its own privacy policy. No staff or payment records are included.</li>
 <li><strong>In-App Safeguards:</strong> DUTYBOOK alerts you before dispatching any file to the system share sheet, confirming that the exported document will leave the application's local sandbox.</li>
 </ul>
 <hr />
@@ -66,13 +73,13 @@
 <hr />
 <h2>8. Legal Compliance &amp; Indian DPDP Act, 2023</h2>
 <p>Under <strong>Section 3(c) of the Digital Personal Data Protection Act, 2023 (DPDP Act, Act No. 22 of 2023)</strong>, personal data processed by an individual for <strong>personal or domestic purposes</strong> is exempt from statutory fiduciary obligations.</p>
-<p>DUTYBOOK is designed and provided exclusively as a personal domestic tool for Indian households. Because A3S Digitech does not process, receive, or store any user data, A3S Digitech does not act as a Data Fiduciary or Data Processor under the Act.</p>
+<p>DUTYBOOK is designed and provided exclusively as a personal domestic tool for Indian households. Because A3S Digitech does not receive or store your records, and the limited advertising data described in section 2 is collected by Google AdMob under its own policy and not by A3S Digitech, A3S Digitech does not act as a Data Fiduciary or Data Processor for your household records.</p>
 <hr />
 <h2>9. Children's Privacy</h2>
 <p>DUTYBOOK is intended for adult household managers. The app does not knowingly collect, store, or solicit personal data from children under the age of 18.</p>
 <hr />
 <h2>10. Changes to This Policy</h2>
-<p>If we introduce new features in future versions (such as optional cloud backup or multi-device sync), this policy will be revised accordingly, and users will be provided with clear in-app disclosure and choice prior to any data processing.</p>
+<p>If we introduce new features in future versions (such as optional cloud backup, multi-device sync, or additional ad formats), this policy will be revised accordingly, and users will be provided with clear in-app disclosure and choice prior to any data processing.</p>
 <hr />
 <h2>11. Publisher &amp; Contact Information</h2>
 <p>For any questions, clarifications, or feedback regarding this Privacy Policy, please contact our team:</p>
